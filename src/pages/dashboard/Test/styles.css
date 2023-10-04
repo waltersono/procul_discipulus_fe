@@ -1,0 +1,72 @@
+.title-box {
+  background-color: #96a6e0;
+  text-align: center;
+  padding: 0.75rem 0;
+}
+.title-box .title, .summry{
+  font-weight: 700;
+}
+
+#summry {
+  text-align: center;
+  border-bottom: 1px solid #262a38;
+}
+
+#summry span {
+  font-weight: 700;
+}
+
+#lessions {
+  list-style: none;
+}
+
+#lessions li {
+  margin-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #262a38;
+  cursor: pointer;
+}
+
+#lessions li.active {
+  font-weight: 600;
+  color: #041E51;
+  border-bottom: 2px solid #041E51;
+}
+
+#quiz_header {
+  border-bottom: 1px solid #262a38;
+  padding-bottom: 0.5rem;
+}
+.quiz {
+  margin-bottom: 0.75rem;
+}
+.quiz .question { 
+  font-weight: 600;
+}
+.quiz .form-check .form-check-input{
+  height: 1.125rem;
+  width: 1.125rem;
+  border-radius: 0;
+}
+
+.documentView {
+  height: 62vh;
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: auto;
+  display: flex;
+  justify-content: center;
+}
+.quizView {
+  height: 54vh;
+  overflow-x: auto;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+.react-pdf__Page__textContent.textLayer,.react-pdf__Page__annotations.annotationLayer{
+  display: none;
+}
+
+
+

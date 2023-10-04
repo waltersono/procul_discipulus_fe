@@ -1,0 +1,35 @@
+.form-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bg-img{
+    background-image: url("../../../assets/images/process_tracking.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.orline{
+    overflow: hidden;
+    text-align: center;
+}
+.orline::before,
+.orline::after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+.orline::before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+.orline::after {
+    left: 0.5em;
+    margin-right: -50%;
+}

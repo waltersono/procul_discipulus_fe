@@ -1,0 +1,13 @@
+#nav-header > .nav.nav-tabs {
+  border-bottom: 1px solid #949494;
+}
+#nav-header > .nav.nav-tabs > .nav-item > .nav-link {
+  border: none;
+  font-weight: 600;
+  color: #949494;
+}
+#nav-header > .nav.nav-tabs > .nav-item > .nav-link.active {
+  border-bottom: 2px solid black;
+  border-radius: 0 !important;
+  color: black;
+}
